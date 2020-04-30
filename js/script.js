@@ -17,15 +17,15 @@ $(document).ready(function(){
       price =0;
     break;
     case "large":
-       price = 1200;
+       price = 44;
        console.log(price);
      break;
      case "medium":
-       price = 850;
+       price = 29;
        console.log("The price is "+price);
      break;
      case "small":
-       price = 600;
+       price = 19;
        console.log(price);
      default:
        console.log("error"); 
@@ -63,15 +63,15 @@ $(document).ready(function(){
           price =0;
         break;
         case "large":
-           price = 1200;
+           price = 44;
            console.log(price);
          break;
          case "medium":
-           price = 850;
+           price = 29;
            console.log("The price is "+price);
          break;
          case "small":
-           price = 600;
+           price = 19;
            console.log(price);
          default:
            console.log("error"); 
@@ -94,8 +94,8 @@ $(document).ready(function(){
       $("button.addPizza").hide();
       $("button.deliver").slideDown(1000);
       $("#addedprice").slideDown(1000);
-      console.log("Your total bills is sh. "+checkoutTotal);
-      $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+      console.log("Your total bills is $ "+checkoutTotal);
+      $("#pizzatotal").append("Your bill is $ "+checkoutTotal);
     });
 
     // home delivery button
@@ -106,8 +106,8 @@ $(document).ready(function(){
       $("#addedprice").hide();
       $("button.deliver").hide();
       $("#pizzatotal").hide();
-      let deliceryamount= checkoutTotal+150;
-      console.log("You will pay sh. "+deliceryamount+" on delivery");
+      let deliceryamount= checkoutTotal+15;
+      console.log("You will pay $ "+deliceryamount+" on delivery");
       $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
 
@@ -125,7 +125,7 @@ $(document).ready(function(){
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
-        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
+        $("#finallmessage").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare $ "+deliceryamount);
         $("#totalbill").hide();
         $("#finallmessage").slideDown(1200);
 
@@ -146,5 +146,5 @@ $(document).ready(function(){
 
 
 function SendtoPhp( name,area, total ){
-  console.log("Made men if "); 
+  console.log("Made data "); 
 }
