@@ -21,7 +21,7 @@ if(isset($_SESSION['cuser_id'])){
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link href="css/Pasted.css" rel="stylesheet">
     <link href="css/orders.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/mdb4.css">
+    <link rel="stylesheet" type="text/css" href="css/mdb.css">
 
     <script type="text/javascript" src="js/jquery.js"></script>
 </head>
@@ -75,6 +75,7 @@ if(isset($_SESSION['cuser_id'])){
               <div class="col-sm-5">
                 <form action="">
                     <label for="select">Select Your Flavor</label>
+                    <br></br>
                     <select class="selectpicker">
                       <!-- <option selected value="choose">Choose your flavor</option> -->
                       <option value="pepperoni pizza">pepperoni pizza</option>
@@ -86,16 +87,16 @@ if(isset($_SESSION['cuser_id'])){
                       <option value="Leafy Pizza">Leafy Pizza</option>
                       <option value="baked pizza">baked pizza</option>
                     </select>
-                    </br>
+                    <br></br>
                   <label for="select">Select Size</label>
-                  </br>
+                  <br></br>
                   <select class="browser-default custom-select custom-select-md mb-3" id="size">
                     <option selected value="0">Select size here</option>
                     <option value="large">Large -- $ 44</option>
                     <option value="medium">Medium -- $ 29</option>
                     <option value="small">Small -- $ 19</option>
                   </select>
-                  </br>
+                  <br></br>
                   <button type="submit" class="btn btn-orange proceed">Proceed</button>
                   
                 </form>
