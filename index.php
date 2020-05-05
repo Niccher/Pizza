@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.php">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="Orders.php">Orders</a></li>
+                    <li><a href="orders.php">Orders</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -202,7 +202,7 @@
             <h1 class="display-3">Hello, wolcome to Dummy Pizza</h1>
             <p class="lead">This is the best place to pick your Pizzas and get them delivered to you.</p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="login.php">Drop your order</a>
+                <a class="btn btn-primary btn-lg" href="orders.php">Drop your order</a>
             </p>
         </div>
 
